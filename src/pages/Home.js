@@ -1,6 +1,7 @@
 //import React from "react";
 import "./CSS/Home.css";
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [isMuted, setIsMuted] = useState(true);
@@ -84,9 +85,9 @@ const Home = () => {
           </div>
         </div>
         <div className="categories__button">
-          <a href="/categories" className="button">
+          <Link to="/categories" className="button">
             View More
-          </a>
+          </Link>
         </div>
       </section>
 
