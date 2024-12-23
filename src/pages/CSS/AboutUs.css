@@ -1,0 +1,79 @@
+/* AboutUs.css */
+
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: sans-serif; 
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-us-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .about-us-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .about-us-main section {
+    flex: 1 1 300px; 
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-main h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about-us-main p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .about-us-main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .about-us-main li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-us-main strong {
+    font-weight: bold;
+  }
+  
+  .about-us-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: #f0f0f0; 
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .about-us-main {
+      flex-direction: column;
+    }
+  
+    .about-us-main section {
+      flex: 1 1 100%;
+    }
+  }
+  

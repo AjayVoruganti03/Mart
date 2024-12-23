@@ -1,0 +1,147 @@
+/* General Desktop Styles */
+.navbar {
+  background: linear-gradient(to right, #ff7f00, #705a42, #5a86a4); 
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 50px; 
+}
+
+.navbar-nav {
+  margin-left: auto; 
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0; 
+}
+
+/* Toggle Button (Hamburger) - Enhanced */
+.navbar-toggler {
+  border: 2px solid #ffdd57; /* Highlight the button with a bright border */
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: transparent;
+  position: relative;
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(255, 221, 87, 0.2); /* Add a slight background on hover */
+  cursor: pointer;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px #ffdd57; /* Highlight focus for accessibility */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffdd57; /* Use a bright color for better visibility */
+  border-radius: 2px;
+  width: 30px;
+  height: 3px;
+  display: block;
+  position: relative;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  content: '';
+  background-color: #ffdd57; /* Match the icon with the button border color */
+  width: 30px;
+  height: 3px;
+  display: block;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler-icon::after {
+  top: 8px;
+}
+
+/* Add a "Menu" label below the toggle button */
+.navbar-toggler::after {
+  content: 'Menu';
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #ffdd57;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* Nav Links */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffdd57;
+  border-bottom: 2px solid #ffdd57;
+}
+
+/* Mobile Config (Media Query for Small Screens) */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0;
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: none; 
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    display: flex; 
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0.5rem 0; 
+    font-size: 1rem; 
+    color: white;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    margin-left: auto; 
+    border: 2px solid #ffdd57; /* Make the border more prominent for mobile */
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+  }
+
+  .navbar-toggler-icon::before {
+    top: -8px;
+  }
+
+  .navbar-toggler-icon::after {
+    top: 8px;
+  }
+
+  .navbar-toggler:hover {
+    background-color: rgba(255, 221, 87, 0.3); /* Slightly more prominent hover effect */
+  }
+
+  .navbar-brand img {
+    height: 40px; 
+  }
+}
