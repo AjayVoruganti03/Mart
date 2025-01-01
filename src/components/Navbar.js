@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src="/images/logo.jpg" alt="Wholesale Mart Logo" />
+          <img src="/iramsha/logo.JPG" alt="Wholesale Mart Logo" />
         </Link>
 
         <button

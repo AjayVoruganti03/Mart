@@ -54,7 +54,7 @@ const Home = () => {
             </p>
           </div>
           <div className="about__images">
-            <img src="/images/home.jpg" alt="Product 1" />
+            <img src="/iramsha/full_pic.jpeg" alt="Product 1" />
           </div>
         </div>
       </section>
@@ -65,23 +65,23 @@ const Home = () => {
         </h2>
         <div className="categories__grid">
           <div className="category">
-            <img src="/images/steel.JPG" alt="Stainless Steel Appliances" />
-            <div className="category__text">Stainless Steel Appliances</div>
+            <img src="/iramsha/1drinks.JPG" alt="Soft Drinks" />
+            <div className="category__text">Soft Drinks</div>
           </div>
           <div className="category">
-            <img src="/images/Home_Textiles.jpg" alt="Home Textiles" />
-            <div className="category__text">Home Textiles</div>
+            <img src="iramsha/groceries.jpg" alt="Frozen Foods" />
+            <div className="category__text">Frozen Foods</div>
           </div>
           <div className="category">
             <img
-              src="/images/Kitchen_appliances.jpg"
-              alt="Kitchen Appliances"
+              src="iramsha/cereals.JPG"
+              alt="High Quality Cereals"
             />
-            <div className="category__text">Kitchen Appliances</div>
+            <div className="category__text">High Quality Cereals</div>
           </div>
           <div className="category">
-            <img src="/images/kids.jpg" alt="Clothing" />
-            <div className="category__text">Kids' Zone</div>
+            <img src="iramsha/4cat.JPG" alt="Many More..." />
+            <div className="category__text">Many More...</div>
           </div>
         </div>
         <div className="categories__button">
@@ -115,7 +115,7 @@ const Home = () => {
             </p>
           </div>
           <div class="offers__image">
-            <img src="/images/offer.jpg" alt="Supermarket" />
+            <img src="/iramsha/offers.JPG" alt="Supermarket" />
           </div>
         </div>
       </section>

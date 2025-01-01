@@ -47,7 +47,7 @@ const categoriesData = [
 function Categories() {
   return (
     <div className="categories-container">
-      <img src="./cimages/banerImage.jpeg" alt="Spoiling You With Options Since 1997" className="banner-image" />
+      <img src="./iramsha/Banner.jpeg" alt="Spoiling You With Options Since 1997" className="banner-image" />
       <h1>Get Global Brand Products at Ramsha Wholesale Mart in Wanaparthy</h1>
       <p className="product-description">
         Ramsha Wholesale Mart offers a wide variety of products at wholesale prices, perfect for families, businesses, and anyone looking to save money on their everyday essentials. We carry a large selection of:

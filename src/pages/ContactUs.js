@@ -51,7 +51,7 @@ const ContactUs = () => {
 
   return (
     <div className="contact-us-container">
-      <img src="./cimages/contactus.jpg" alt="Contact Us" className="banner-image" /> 
+      <img src="./iramsha/visit.JPG" alt="Contact Us" className="banner-image" /> 
       <h1>Contact Us</h1>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       {successMessage && <p className="success-message">{successMessage}</p>}
