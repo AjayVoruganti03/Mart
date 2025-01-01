@@ -65,7 +65,7 @@ const Home = () => {
         </h2>
         <div className="categories__grid">
           <div className="category">
-            <img src="/iramsha/1drinks.JPG" alt="Soft Drinks" />
+            <img src="/iramsha/1drinks.jpg" alt="Soft Drinks" />
             <div className="category__text">Soft Drinks</div>
           </div>
           <div className="category">
