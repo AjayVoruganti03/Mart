@@ -52,7 +52,7 @@ const categoriesData = [
   },
   {
     name: 'Bags',
-    image: '/cimages/bags.jpeg',
+    image: '/cimages/Bags.jpeg',
   },
   {
     name: 'Gift-Articles',
