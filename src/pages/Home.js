@@ -1,17 +1,19 @@
-//import React from "react";
 import "./CSS/Home.css";
-import React, { useState } from "react";
+//import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  const [isMuted, setIsMuted] = useState(true);
+  //This is the audio button if we put a video in the background
+  // const [isMuted, setIsMuted] = useState(true);
 
-  const toggleMute = () => {
-    setIsMuted(!isMuted);
-  };
+  // const toggleMute = () => {
+  //   setIsMuted(!isMuted);
+  // };
 
   return (
     <div className="home">
+      {/* This is video section if we put a video in the background 
+      
       <section className="video-banner">
         <video autoPlay loop muted={isMuted} className="video-banner__video">
           <source src="/images/iramsha.mp4" type="video/mp4" />
@@ -24,6 +26,14 @@ const Home = () => {
         <button onClick={toggleMute} className="video-banner__mute-button">
           {isMuted ? "Unmute" : "Mute"}
         </button>
+      </section> */}
+
+      <section className="image-banner">
+        <img src="/iramsha/Banner.jpeg" alt="Banner Placeholder" className="image-banner__image" />
+        <div className="image-banner__text">
+          {/* <h1>Welcome to RAMSHA Wholesale Mart</h1>
+          <p>Your one-stop shop for all your wholesale needs!</p> */}
+        </div>
       </section>
 
       <section className="about">
@@ -113,6 +123,9 @@ const Home = () => {
               Hurry, these offers won't last long! Visit us in-store to take
               advantage of these amazing deals.
             </p>
+            <div class="offers__image">
+            <img src="/iramsha/delivery.JPG" alt="Supermarket" />
+          </div>
           </div>
           <div class="offers__image">
             <img src="/iramsha/offers.JPG" alt="Supermarket" />

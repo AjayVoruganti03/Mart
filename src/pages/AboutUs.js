@@ -54,15 +54,7 @@ function AboutUs() {
             community has been key to our success.
           </p>
         </section>
-        <section className="team">
-          <h2>Meet Our Team</h2>
-          <p>
-            Our team is made up of passionate individuals who are dedicated
-            to providing the best possible service to our customers. We are a
-            diverse group of professionals with a shared commitment to
-            excellence.
-          </p>
-        </section>
+        
       </main>
       <footer className="about-us-footer"></footer>
     </div>

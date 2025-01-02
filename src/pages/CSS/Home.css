@@ -6,7 +6,40 @@
   padding: 0;
 }
 
-/* Video Banner */
+/* Banner Section */
+.image-banner {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-banner__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-banner__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.image-banner__text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.image-banner__text p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+/* Video Banner if we use video as a background
 .video-banner {
   position: relative;
   height: 100vh;
@@ -60,7 +93,7 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-}
+} */
 
 /* About Section */
 .about__content {
@@ -69,6 +102,8 @@
   justify-content: space-between;
   margin-bottom: 50px;
   flex-wrap: wrap;
+  padding: 40px 0;
+  
 }
 
 .about__text {
@@ -221,6 +256,7 @@
   color: #333;
   margin-bottom: 10px;
 }
+
 
 .offers__image {
   flex: 1;

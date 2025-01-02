@@ -27,14 +27,14 @@ function Footer() {
           <div className="footer__socials">
             <p>FOLLOW US</p>
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/100063906291478/videos/please-visit-ramsha-wholesale-mart-pebbair-road-wanaparthy/397159573439527/ "
               target="_blank"
               rel="noreferrer"
             >
               <img src="/images/fblogo.png" alt="Facebook Icon" />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/ramsha_wholesale_mart/?utm_source=qr&igsh=MWs2ODlpMmMxNHBodw%3D%3D"
               target="_blank"
               rel="noreferrer"
             >
