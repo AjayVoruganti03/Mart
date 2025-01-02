@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
-  const whatsappNumber = "9347870069"; 
+  const whatsappNumber = "+919347870069"; 
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
