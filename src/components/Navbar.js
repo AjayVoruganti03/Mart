@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
+  const whatsappNumber = "9347870069"; 
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
@@ -23,7 +25,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto"> 
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">Home</Link>
             </li>
@@ -33,8 +35,21 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/categories">Categories</Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item d-flex align-items-center">
               <Link className="nav-link" to="/contact-us">Contact Us</Link>
+              <a
+                href={`https://wa.me/${whatsappNumber}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ms-2"
+                title="Chat on WhatsApp"
+              >
+                <img
+                  src="./images/whatsapplogo.jpeg"
+                  alt="WhatsApp"
+                  style={{ width: "24px", height: "24px",borderRadius: "25%" }}
+                />
+              </a>
             </li>
           </ul>
         </div>

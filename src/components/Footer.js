@@ -21,7 +21,7 @@ function Footer() {
             </p>
             <p>
               Email:{" "}
-              <a href="mailto:customercare@gmail.com">customercare@gmail.com</a>
+              <a href="mailto:customercare@gmail.com">nssmrk@gmail.com</a>
             </p>
           </div>
           <div className="footer__socials">
