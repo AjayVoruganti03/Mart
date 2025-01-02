@@ -103,7 +103,7 @@
   margin-bottom: 50px;
   flex-wrap: wrap;
   padding: 40px 0;
-  
+  font-size: 20px;
 }
 
 .about__text {
@@ -236,6 +236,7 @@
   align-items: center;
   padding: 20px;
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 .offers__content {

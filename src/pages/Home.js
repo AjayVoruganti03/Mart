@@ -1,6 +1,6 @@
 import "./CSS/Home.css";
 //import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   //This is the audio button if we put a video in the background
@@ -29,7 +29,11 @@ const Home = () => {
       </section> */}
 
       <section className="image-banner">
-        <img src="/iramsha/Banner.jpeg" alt="Banner Placeholder" className="image-banner__image" />
+        <img
+          src="/iramsha/Banner.jpeg"
+          alt="Banner Placeholder"
+          className="image-banner__image"
+        />
         <div className="image-banner__text">
           {/* <h1>Welcome to RAMSHA Wholesale Mart</h1>
           <p>Your one-stop shop for all your wholesale needs!</p> */}
@@ -39,28 +43,24 @@ const Home = () => {
       <section className="about">
         <div className="about__content">
           <div className="about__text">
-            <h2>About Wholesale Mart</h2>
+            <h2><b>About Ramsha Wholesale Mart</b></h2>
             <p>
-              At Wholesale Mart, we pride ourselves on offering the best deals
-              on quality products. From groceries to household essentials, we
-              cater to all your needs with unbeatable prices and unparalleled
-              service.
+              Ramsha Wholesale Mart is proud to be Wanaparthy's first and
+              biggest wholesale supermarket, founded by Shri Kotra Ramakrishna
+              under the banner of Shiva Traders. From everyday groceries and
+              home essentials to furniture, luggage, and gift items, we bring
+              together an extensive range of products under one roof—making us
+              your true one-stop solution for daily shopping.
             </p>
             <p>
-              Our mission is to provide our customers with a wide selection of
-              products at the lowest prices possible. We believe that everyone
-              deserves access to quality goods without breaking the bank.
-            </p>
-            <p>
-              With years of experience in the retail industry, our dedicated
-              team is committed to ensuring your shopping experience is
-              enjoyable and efficient. We constantly update our inventory to
-              include the latest products and trends, so you can always find
-              what you need.
-            </p>
-            <p>
-              Join our community of satisfied customers and discover the
-              Wholesale Mart difference today!
+              Located near Sangam Function Hall on Kurnool Road in Wanaparthy,
+              Ramsha Wholesale Mart is dedicated to delivering quality, value,
+              and convenience to every customer. Our spacious multi-floor
+              facility hosts thousands of items across categories such as
+              groceries, home needs, fashion, kitchenware, and more. Whether
+              you're stocking up for your household or sourcing bulk orders for
+              your business, you can rely on our competitive wholesale prices
+              and special offers.
             </p>
           </div>
           <div className="about__images">
@@ -70,9 +70,9 @@ const Home = () => {
       </section>
 
       <section className="categories">
-        <h2 className="categories_h2">
+        <h1 className="categories_h2">
           Your one-stop shop for all your wholesale needs!
-        </h2>
+        </h1>
         <div className="categories__grid">
           <div className="category">
             <img src="/iramsha/1drinks.jpg" alt="Soft Drinks" />
@@ -83,10 +83,7 @@ const Home = () => {
             <div className="category__text">Frozen Foods</div>
           </div>
           <div className="category">
-            <img
-              src="iramsha/cereals.JPG"
-              alt="High Quality Cereals"
-            />
+            <img src="iramsha/cereals.JPG" alt="High Quality Cereals" />
             <div className="category__text">High Quality Cereals</div>
           </div>
           <div className="category">
@@ -105,27 +102,18 @@ const Home = () => {
         <div class="offers__content">
           <div class="offers__text">
             <h2>Special Offers</h2>
-            <ul>
-              <li>Buy 1 Get 1 Free on Select Items</li>
-              <li>Up to 50% Off on MRP Rates</li>
-              <li>Exclusive Deals for Members</li>
-              <li>Flash Sale: Extra 20% Off on Your First Purchase!</li>
-              <li>Weekend Specials: Additional Discounts on Fresh Produce</li>
-              <li>Free Shipping on Orders Over Rs.3000</li>
-            </ul>
             <p>
-              Don't miss out on our limited-time offers! Stock up on your
-              favorite products and enjoy incredible savings. Whether you're
-              shopping for groceries, household essentials, or special treats,
-              we have something for everyone!
-            </p>
-            <p>
-              Hurry, these offers won't last long! Visit us in-store to take
-              advantage of these amazing deals.
+              We also offer free home delivery for orders above ₹3000, accept
+              all major credit and debit cards, and provide friendly in-store
+              assistance to ensure a pleasant shopping experience. At Ramsha
+              Wholesale Mart, we believe in making shopping affordable,
+              convenient, and enjoyable—because meeting your needs is our
+              priority. Come visit us today and discover why we are Wanaparthy
+              District's premier supermarket destination.
             </p>
             <div class="offers__image">
-            <img src="/iramsha/delivery.JPG" alt="Supermarket" />
-          </div>
+              <img src="/iramsha/delivery.JPG" alt="Supermarket" />
+            </div>
           </div>
           <div class="offers__image">
             <img src="/iramsha/offers.JPG" alt="Supermarket" />

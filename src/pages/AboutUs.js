@@ -56,7 +56,7 @@ function AboutUs() {
         </section>
         
       </main>
-      <footer className="about-us-footer"></footer>
+      {/* <footer className="about-us-footer"></footer> */}
     </div>
   );
 }
