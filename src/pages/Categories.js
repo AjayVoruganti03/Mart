@@ -66,6 +66,18 @@ const categoriesData = [
     name: 'Snacks',
     image: '/cimages/snacks.jpeg',
   },
+  {
+    name: 'Oral-Care',
+    image: '/cimages/oral-care.jpeg',
+  },
+  {
+    name: 'Furniture',
+    image: '/cimages/furniture.jpg',
+  },
+  {
+    name: 'Electronics',
+    image: '/cimages/electricalitems.jpeg',
+  },
 ];
 
 function Categories() {
@@ -93,6 +105,9 @@ function Categories() {
         <li>Gift-Articles</li>
         <li>Hair-Care</li>
         <li>Snacks</li>
+        <li>Oral-Care</li>
+        <li>Furniture</li>
+        <li>Electronics</li>
       </ul>
       <div className="categories-grid">
         {categoriesData.map((category, index) => (

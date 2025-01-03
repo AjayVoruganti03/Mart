@@ -92,15 +92,19 @@ const Home = () => {
           </div>
         </div>
         <div className="categories__button">
-          <Link to="/categories" className="button">
+          <Link
+            to="/categories"
+            className="button"
+            onClick={() => window.scrollTo(0, 0)} 
+          >
             View More
           </Link>
         </div>
       </section>
 
-      <section class="offers">
-        <div class="offers__content">
-          <div class="offers__text">
+      <section className="offers">
+        <div className="offers__content">
+          <div className="offers__text">
             <h2>Special Offers</h2>
             <p>
               We also offer free home delivery for orders above ₹3000, accept
@@ -111,11 +115,11 @@ const Home = () => {
               priority. Come visit us today and discover why we are Wanaparthy
               District's premier supermarket destination.
             </p>
-            <div class="offers__image">
+            <div className="offers__image">
               <img src="/iramsha/delivery.JPG" alt="Supermarket" />
             </div>
           </div>
-          <div class="offers__image">
+          <div className="offers__image">
             <img src="/iramsha/offers.JPG" alt="Supermarket" />
           </div>
         </div>

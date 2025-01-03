@@ -1,9 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const whatsappNumber = "+919347870069"; 
+  const whatsappNumber = "+919347870069";
+
+  const closeMenu = () => {
+    const navbarCollapse = document.getElementById("navbarNav");
+    if (navbarCollapse.classList.contains("show")) {
+      navbarCollapse.classList.remove("show");
+    }
+  };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -13,7 +20,7 @@ const Navbar = () => {
         </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -21,22 +28,30 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <img src="/images/menu_button.png" alt="Menu" className="menu-icon" />
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/" onClick={closeMenu}>
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about-us">About Us</Link>
+              <Link className="nav-link" to="/about-us" onClick={closeMenu}>
+                About Us
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/categories">Categories</Link>
+              <Link className="nav-link" to="/categories" onClick={closeMenu}>
+                Categories
+              </Link>
             </li>
             <li className="nav-item d-flex align-items-center">
-              <Link className="nav-link" to="/contact-us">Contact Us</Link>
+              <Link className="nav-link" to="/contact-us" onClick={closeMenu}>
+                Contact Us
+              </Link>
               <a
                 href={`https://wa.me/${whatsappNumber}`}
                 target="_blank"
@@ -47,7 +62,7 @@ const Navbar = () => {
                 <img
                   src="./images/whatsapplogo.jpeg"
                   alt="WhatsApp"
-                  style={{ width: "24px", height: "24px",borderRadius: "25%" }}
+                  style={{ width: "24px", height: "24px", borderRadius: "25%" }}
                 />
               </a>
             </li>
